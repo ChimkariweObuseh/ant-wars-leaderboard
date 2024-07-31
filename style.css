@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Lexend', sans-serif;
+    font-size: 9px;
+}
+
+body {
+    background: #4e3662;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    color: #5aff79;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.letter {
+    /*display: inline-block;*/
+    opacity: 0;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 40px;
+}
+
+.bracket {
+    position: absolute;
+    padding: 20px;
+      border-radius: 15px;
+      border: 4px solid transparent;
+}
+
+.one {
+    top: 11%;
+}
+.two {
+    top: 22%;
+}
+.three {
+    top: 33%;
+}
+.four {
+    top: 44%;
+}
+.five {
+    top: 55%;
+}
+.six {
+    top: 66%;
+}
+.seven {
+    top: 77%;
+}
+.eight {
+    top: 88%;
+}
+.quarterone {
+    top: 16.5%;
+}
+.quartertwo {
+    top: 38.5%;
+}
+.quarterthree {
+    top: 60.5%;
+}
+.quarterfour {
+    top: 82.5%;
+}
+.semione {
+    top: 27.5%;
+}
+.semitwo {
+    top: 71.5%;
+}
+.finalone {
+    top: 35%;
+}
+.finaltwo {
+    top: 65%;
+}
+
+.rowone {
+    left: 10%;
+    z-index: 1;
+    color: #e4f7ff;
+    background: linear-gradient(to right, darkblue, darkorchid) padding-box,
+                  linear-gradient(#00f5b4, #cc3bff) border-box;
+}
+.rowtwo {
+    right: 10%;
+    z-index: 1;
+    color: #e4f7ff;
+    background: linear-gradient(to right, darkblue, darkorchid) padding-box,
+                  linear-gradient(#00f5b4, #cc3bff) border-box;
+}
+.rowthree {
+    left: 20%;
+    z-index: 2;
+    color: #432818;
+    background: linear-gradient(to right, #CB8C47, #AA6C2A) padding-box,
+                  linear-gradient(#E6CCB2, #7F5539) border-box;
+}
+.rowfour {
+    right: 20%;
+    z-index: 2;
+    color: #432818;
+    background: linear-gradient(to right, #CB8C47, #AA6C2A) padding-box,
+                  linear-gradient(#E6CCB2, #7F5539) border-box;
+}
+.rowfive {
+    left: 30%;
+    z-index: 3;
+    color: #2e5266;
+    background: linear-gradient(to right, #d3d0cb, #6e8898) padding-box,
+                  linear-gradient(#fff, #9fb1bc) border-box;
+}
+.rowsix {
+    right: 30%;
+    z-index: 3;
+    color: #2e5266;
+    background: linear-gradient(to right, #d3d0cb, #6e8898) padding-box,
+                  linear-gradient(#fff, #9fb1bc) border-box;
+}
+.rowseven {
+    left: 43.5%;
+    transform: translateX(-50%);
+    z-index: 3;
+    color: #805B10;
+    background: linear-gradient(to right, #FFE169, #A47E1B) padding-box,
+                  linear-gradient(#FAD643, #926C15) border-box;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2; /* Ensure it stays behind everything else */
+}
