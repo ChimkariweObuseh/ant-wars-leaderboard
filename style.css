@@ -132,7 +132,7 @@ body {
                   linear-gradient(#fff, #9fb1bc) border-box;
 }
 .rowseven {
-    left: 42%;
+    left: 40%;
     transform: translateX(-50%);
     z-index: 3;
     color: #805B10;
